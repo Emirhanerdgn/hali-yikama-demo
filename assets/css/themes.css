@@ -1,0 +1,172 @@
+/* Sektör temaları: her biri kendi paleti, yazı çifti ve köşe karakteriyle gelir. */
+:root {
+  --bg: #f6f1e8;
+  --surface: #fffaf2;
+  --ink: #1d1a16;
+  --muted: #6f675c;
+  --line: rgba(29, 26, 22, 0.14);
+  --accent: #b4532a;
+  --accent-ink: #fff8ef;
+  --accent-soft: rgba(180, 83, 42, 0.12);
+  --deep: #23382c;
+  --deep-ink: #f3ecdd;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --radius-s: 10px;
+  --radius-m: 18px;
+  --radius-l: 30px;
+  --display-weight: 560;
+  --display-tracking: -0.025em;
+  --display-case: none;
+  --shadow: 0 24px 60px -28px rgba(29, 26, 22, 0.45);
+}
+
+/* Kahvaltı: sıcak, editoryal */
+[data-theme="sofra"] {
+  --bg: #f4ecdd;
+  --surface: #fff9ee;
+  --ink: #221a12;
+  --muted: #75695a;
+  --accent: #b9471f;
+  --accent-soft: rgba(185, 71, 31, 0.12);
+  --deep: #24392b;
+}
+
+/* Güzellik: açık lüks */
+[data-theme="atelier"] {
+  --bg: #f5efea;
+  --surface: #fffdfb;
+  --ink: #171314;
+  --muted: #7b6f6c;
+  --line: rgba(23, 19, 20, 0.12);
+  --accent: #171314;
+  --accent-ink: #f5efea;
+  --accent-soft: rgba(176, 132, 112, 0.2);
+  --deep: #b08470;
+  --deep-ink: #fffaf6;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Jost", system-ui, sans-serif;
+  --radius-s: 2px;
+  --radius-m: 4px;
+  --radius-l: 6px;
+  --display-weight: 500;
+  --display-tracking: -0.01em;
+}
+
+/* Veteriner: sıcak klinik */
+[data-theme="pati"] {
+  --bg: #eef6f2;
+  --surface: #ffffff;
+  --ink: #12302b;
+  --muted: #5d7570;
+  --line: rgba(18, 48, 43, 0.13);
+  --accent: #f0683c;
+  --accent-ink: #fffaf6;
+  --accent-soft: rgba(240, 104, 60, 0.13);
+  --deep: #135b50;
+  --deep-ink: #eafaf4;
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Outfit", system-ui, sans-serif;
+  --radius-s: 14px;
+  --radius-m: 24px;
+  --radius-l: 40px;
+  --display-weight: 700;
+  --display-tracking: -0.035em;
+}
+
+[data-theme="pati"][data-variant="gunes"] {
+  --bg: #fbf4e6;
+  --ink: #2a2233;
+  --muted: #6f6677;
+  --line: rgba(42, 34, 51, 0.13);
+  --accent: #e2562f;
+  --accent-soft: rgba(226, 86, 47, 0.13);
+  --deep: #3b2d63;
+  --deep-ink: #f6f0ff;
+}
+
+/* Oto bakım: koyu, endüstriyel */
+[data-theme="garaj"] {
+  --bg: #0e0f11;
+  --surface: #17191d;
+  --ink: #f2f0ea;
+  --muted: #9a9b9f;
+  --line: rgba(242, 240, 234, 0.14);
+  --accent: #ff6a1a;
+  --accent-ink: #120a04;
+  --accent-soft: rgba(255, 106, 26, 0.16);
+  --deep: #1d2026;
+  --deep-ink: #f2f0ea;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+  --radius-s: 0px;
+  --radius-m: 2px;
+  --radius-l: 4px;
+  --display-weight: 700;
+  --display-tracking: 0;
+  --display-case: uppercase;
+  --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.8);
+}
+
+/* Halı yıkama: ferah, temiz */
+[data-theme="kopuk"] {
+  --bg: #eaf4fb;
+  --surface: #ffffff;
+  --ink: #0d2640;
+  --muted: #56708a;
+  --line: rgba(13, 38, 64, 0.13);
+  --accent: #0d6efd;
+  --accent-ink: #f4faff;
+  --accent-soft: rgba(13, 110, 253, 0.11);
+  --deep: #0d2640;
+  --deep-ink: #e6f3ff;
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Sora", system-ui, sans-serif;
+  --radius-s: 12px;
+  --radius-m: 22px;
+  --radius-l: 36px;
+  --display-weight: 700;
+  --display-tracking: -0.045em;
+}
+
+/* Davet evi: romantik lüks */
+[data-theme="davet"] {
+  --bg: #f8f3ec;
+  --surface: #fffdf9;
+  --ink: #2b1c2a;
+  --muted: #7d6c78;
+  --line: rgba(43, 28, 42, 0.13);
+  --accent: #a8823c;
+  --accent-ink: #fffaf0;
+  --accent-soft: rgba(168, 130, 60, 0.15);
+  --deep: #3a2238;
+  --deep-ink: #f8ecd9;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Jost", system-ui, sans-serif;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 160px;
+  --display-weight: 500;
+  --display-tracking: -0.015em;
+}
+
+/* Fotoğraf stüdyosu: stüdyo, kontrast */
+[data-theme="studyo"] {
+  --bg: #efede8;
+  --surface: #fbfaf7;
+  --ink: #111111;
+  --muted: #66635d;
+  --line: rgba(17, 17, 17, 0.16);
+  --accent: #d92b1f;
+  --accent-ink: #fff7f5;
+  --accent-soft: rgba(217, 43, 31, 0.1);
+  --deep: #111111;
+  --deep-ink: #efede8;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --radius-s: 0px;
+  --radius-m: 0px;
+  --radius-l: 0px;
+  --display-weight: 400;
+  --display-tracking: -0.02em;
+}
